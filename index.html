@@ -1,9 +1,126 @@
-<!DOCTYPE html>
-<html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8" />
+    <script type="text/javascript" src="https://use.fontawesome.com/d59bf9164a.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="/assets/emailForm.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Chris Lassiter - IT Support Professional</title>
+</head>
 
 <body>
-    <h1>Hello World</h1>
-    <p>I'm hosted with GitHub Pages.</p>
+    <div class="mmenu_icon">
+        <i class="fa fa-bars" aria-hidden="true"> Menu</i>
+    </div>
+    <div class="mobile_menu">
+        <div>
+            <a class="btn mobileButton" role="button" href="#top">Home</a>
+        </div>
+        <div>
+            <a class="btn mobileButton" role="button" href="#portfolio">Portfolio</a>
+        </div>
+        <div>
+            <a class="btn mobileButton" role="button" href="#goals">Goals</a>
+        </div>
+        <div>
+            <a class="btn mobileButton" role="button" href="#contactMe">Contact Me</a>
+        </div>
+    </div>
+    <div class="gutter">
+        <header class="flex_row">
+            <p class="title">
+                Chris Lassiter
+            </p>
+            <p class="subTitle">
+                IT Support Professional
+            </p>
+        </header>
+        <nav>
+            <div>
+                <a class="btn button" role="button" href="#top">Home</a>
+            </div>
+            <div>
+                <a class="btn button" role="button" href="#portfolio">Portfolio</a>
+            </div>
+            <div>
+                <a class="btn button" role="button" href="#goals">Goals</a>
+            </div>
+            <div>
+                <a class="btn button" role="button" href="#contactMe">Contact Me</a>
+            </div>
+        </nav>
+        <section id="aboutMe" class="aboutMe">
+            <div>
+                <h2>
+                  Hey there!
+                </h2>
+                <p>
+                    My name is Chris Lassiter and I am interested in everything technology. Over the past 8 years, I have been repairing, supporting and building computers and servers alike. My forte is Windows operating systems but I also like to venture over to Mac and Ubuntu every once in a while.
+                </p>
+                <h3>
+                    Dabbling in web development
+                </h3>
+                <p>
+                    Throughout my life, I have thoroughly enjoyed solving puzzles. Website development to me is nothing more than a puzzle on a more complex scale. In my free time, I enjoy learning about various new frameworks, different coding styles, and am always looking
+                    for ways to improve my own code.
+                </p>
+            </div>
+            <img src="https://chrislassiter.me/images/chrisSmall.jpg" class="img-rounded img-responsive" alt="Picture of Chris">
+        </section>
+        <section id="portfolio" class="portfolio">
+            <h2>
+              Portfolio
+            </h2>
+            <div>
+                <a href="https://codepen.io/classiter/pen/Egoxvd" target="_blank"><img src="https://chrislassiter.me/images/quoteMachinesm.png" class="img-thumbnail img-responsive" alt="Chris' Quote Machine"></a>
+                <a href="https://codepen.io/classiter/pen/XjqGVN" target="_blank"><img src="https://chrislassiter.me/images/Wikipedia_App.png" class="img-thumbnail img-responsive" alt="Wikipedia Search Machine"></a>
+                <a href="https://codepen.io/classiter/pen/BLAjYk" target="_blank"><img src="https://chrislassiter.me/images/WeatherApp.png" class="img-thumbnail img-responsive" alt="Mini Weather App"></a>
+                <img src="https://chrislassiter.me/images/placeholder.png" class="img-thumbnail img-responsive" alt="Project coming soon...">
+            </div>
+        </section>
+        <section id="goals" class="goals">
+            <h2>
+      Goals
+    </h2>
+            <div class="goal_row">
+                <div class="goal_copy">
+                    <p>
+                        My goal is to one day be a system or server administrator. I enjoy making people happy and developing long term server/infrastructure solutions accomplishes that on a large scale.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="contactMe_container" id="contactMe">
+            <div class="contactMe_copy">
+                <h2>
+        Contact me
+      </h2>
+                <div class="form-group">
+                    <input type="email" class="form-control" id="contactEmailForm" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="contactTextarea">Enter your message below</label>
+                    <textarea class="form-control" id="contactTextarea" rows="3" cols="50"></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="button" class="btn btn-primary btn-block submit_btn">
+          <i class="fa fa-envelope-o" aria-hidden="true"></i> Submit
+        </button>
+                </div>
+                <div class="result">
+                </div>
+            </div>
+        </section>
+        <footer>
+            <hr>
+            <p>
+                Copyright &copy; 2017 Chris Lassiter
+            </p>
+        </footer>
+    </div>
 </body>
-
 </html>
