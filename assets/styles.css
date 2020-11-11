@@ -58,7 +58,7 @@ body{
     align-items: center;
     justify-content: center;
     padding: 20px 0 20px 0;
-    color: white;
+    color: rgb(73,80,87);
   }
   .aboutMe div{
     flex: 1 1 auto;
