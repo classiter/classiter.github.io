@@ -5,6 +5,7 @@ body{
     font-weight: 400;
     background-image: url("http://chrislassiter.me/images/background.png");
     background-attachment: fixed;
+    color: rgb(73,80,87);
   }
   .gutter{
     height: 100%;
@@ -58,7 +59,6 @@ body{
     align-items: center;
     justify-content: center;
     padding: 20px 0 20px 0;
-    color: rgb(73,80,87);
   }
   .aboutMe div{
     flex: 1 1 auto;
