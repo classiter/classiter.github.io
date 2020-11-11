@@ -3,7 +3,6 @@ body{
     line-height: 1.5;
     font-family: 'Open Sans',sans-serif;
     font-weight: 400;
-    background-image: url("http://chrislassiter.me/images/background.png");
     background-attachment: fixed;
     color: rgb(73,80,87);
   }
