@@ -5,7 +5,6 @@
     <script defer src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"
         integrity="sha384-9/D4ECZvKMVEJ9Bhr3ZnUAF+Ahlagp1cyPC7h5yDlZdXs4DQ/vRftzfd+2uFUuqS"
         crossorigin="anonymous"></script>
-    <!-- <script type="text/javascript" src="https://use.fontawesome.com/d59bf9164a.js"></script> -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script type="text/javascript" src="/assets/emailForm.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
@@ -19,128 +18,133 @@
 </head>
 
 <body>
-    <div class="mmenu_icon">
-        <i class="fas fa-bars" aria-hidden="true"></i>
-    </div>
-    <div class="mobile_menu">
-        <div>
-            <a class="btn mobileButton" role="button" href="#top">Home</a>
-        </div>
-        <div>
-            <a class="btn mobileButton" role="button" href="#portfolio">Portfolio</a>
-        </div>
-        <div>
-            <a class="btn mobileButton" role="button" href="#goals">Goals</a>
-        </div>
-        <div>
-            <a class="btn mobileButton" role="button" href="#contactMe">Contact Me</a>
-        </div>
-    </div>
-    <div class="gutter">
-        <header class="flex_row">
-            <p class="title">
-                Chris Lassiter
+    <section class="section">
+        <div class="container">
+            <p>
+                <span class="is-size-2 has-text-centered level-item">Chris Lassiter</span>
+                <span class="is-size-3 has-text-weight-light level-item">IT Support Professional</span>
             </p>
-            <p class="subTitle">
-                IT Support Professional
-            </p>
-        </header>
-        <nav>
-            <div>
-                <a class="btn button" role="button" href="#top">Home</a>
+        </div>
+    </section>
+
+    <nav class="navbar has-background-info" role="navigation" aria-label="main navigation">
+        <a role="button" class="navbar-burger has-text-white" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+        <div class="navbar-menu level-item has-background-info">
+            <a class="navbar-item has-background-info has-text-white" role="button" href="#top">Home</a>
+            <a class="navbar-item has-background-info has-text-white" role="button" href="#portfolio">Portfolio</a>
+            <a class="navbar-item has-background-info has-text-white" role="button" href="#goals">Goals</a>
+            <a class="navbar-item has-background-info has-text-white" role="button" href="#contactMe">Contact Me</a>
+        </div>
+    </nav>
+
+    <section id="aboutMe" class="section aboutMe">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-three-quarters">
+                    <div class="block">
+                        <span class="is-size-4">Hey There!</span>
+                        <p>
+                            My name is Chris Lassiter and I am interested in everything technology. Over the past 10
+                            years, I
+                            have been repairing, supporting and building servers and workstations alike. My forte is
+                            Windows
+                            operating systems but I also like to venture over to Mac and Ubuntu every once in a while.
+                        </p>
+                    </div>
+                    <div class="block">
+                        <span class="is-size-4">Dabbling in web development</span>
+                        <p>
+                            Throughout my life, I have thoroughly enjoyed solving puzzles. Website development to me is
+                            nothing
+                            more than a complex puzzle. In my free time, I enjoy learning about various new frameworks,
+                            different coding styles,
+                            and am always looking for ways to improve my own code.
+                        </p>
+                    </div>
+                </div>
+                <div class="column">
+                    <figure class="image is-square">
+                        <img src="https://raw.githubusercontent.com/classiter/classiter.github.io/master/images/ChrisLassiter_320x320.jpg"
+                            class="is-rounded level-item" alt="Picture of Chris">
+                    </figure>
+                </div>
             </div>
-            <div>
-                <a class="btn button" role="button" href="#portfolio">Portfolio</a>
-            </div>
-            <div>
-                <a class="btn button" role="button" href="#goals">Goals</a>
-            </div>
-            <div>
-                <a class="btn button" role="button" href="#contactMe">Contact Me</a>
-            </div>
-        </nav>
-        <section id="aboutMe" class="aboutMe">
-            <div>
-                <h2>
-                    Hey there!
-                </h2>
-                <p>
-                    My name is Chris Lassiter and I am interested in everything technology. Over the past 10 years, I
-                    have been repairing, supporting and building servers and workstations alike. My forte is Windows
-                    operating systems but I also like to venture over to Mac and Ubuntu every once in a while.
-                </p>
-                <h3>
-                    Dabbling in web development
-                </h3>
-                <p>
-                    Throughout my life, I have thoroughly enjoyed solving puzzles. Website development to me is nothing
-                    more than a complex puzzle. In my free time, I enjoy learning about various new frameworks,
-                    different coding styles,
-                    and am always looking for ways to improve my own code.
-                </p>
-            </div>
-            <img src="https://raw.githubusercontent.com/classiter/classiter.github.io/master/images/ChrisLassiter_320x320.jpg"
-                class="rounded img-fluid" alt="Picture of Chris">
-        </section>
-        <section id="portfolio" class="portfolio">
-            <h2>
-                Portfolio
-            </h2>
-            <div>
-                <a href="https://codepen.io/classiter/pen/Egoxvd" target="_blank"><img
+        </div>
+    </section>
+
+    <section id="portfolio" class="section portfolio">
+        <span class="is-size-3 level-item">Portfolio</span>
+        <div class="container level-item is-flex is-flex-wrap-wrap">
+            <figure class="image is-300x225"><a href="https://codepen.io/classiter/pen/Egoxvd" target="_blank"><img
                         src="https://raw.githubusercontent.com/classiter/classiter.github.io/master/images/quoteMachinesm.png"
-                        class="img-thumbnail img-fluid" alt="Chris' Quote Machine"></a>
-                <a href="https://codepen.io/classiter/pen/XjqGVN" target="_blank"><img
+                        alt="Chris' Quote Machine"></a>
+            </figure>
+            <figure class="image is-300x225"><a href="https://codepen.io/classiter/pen/XjqGVN" target="_blank"><img
                         src="https://raw.githubusercontent.com/classiter/classiter.github.io/master/images/Wikipedia_App.png"
-                        class="img-thumbnail img-fluid" alt="Wikipedia Search Machine"></a>
-                <a href="https://codepen.io/classiter/pen/BLAjYk" target="_blank"><img
+                        alt="Wikipedia Search Machine"></a>
+            </figure>
+            <figure class="image is-300x225"><a href="https://codepen.io/classiter/pen/BLAjYk" target="_blank"><img
                         src="https://raw.githubusercontent.com/classiter/classiter.github.io/master/images/WeatherApp.png"
-                        class="img-thumbnail img-fluid" alt="Mini Weather App"></a>
-                <img src="https://raw.githubusercontent.com/classiter/classiter.github.io/master/images/placeholder.png"
-                    class="img-thumbnail img-fluid" alt="Project coming soon...">
+                        alt="Mini Weather App"></a>
+            </figure>
+            <figure class="image is-300x225"><img
+                    src="https://raw.githubusercontent.com/classiter/classiter.github.io/master/images/placeholder.png"
+                    alt="Project coming soon...">
+            </figure>
+        </div>
+    </section>
+
+    <section id="goals" class="section goals">
+        <span class="is-size-3 level-item">Goals</span>
+        <div class="container">
+            <p>
+                My goal is to become a system admin, entrpreneur, and web developer; Not exactly in that order
+                as all of these roles are equally exciting.
+            </p>
+        </div>
+    </section>
+
+    <section class="section" id="contactMe">
+        <div class="columns">
+            <div class="column"></div>
+            <div class="column is-three-fifths">
+                <form>
+                    <div class="field">
+                        <label class="label is-size-3 level-item">Contact Me</label>
+                        <div class="control">
+                            <input class="input" type="email" id="contactEmailForm" placeholder="Enter email">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label level-item" for="contactTextarea">Enter your message below</label>
+                        <div class="control">
+                            <textarea class="textarea" id="contactTextarea" rows="3" cols="50"></textarea>
+                        </div>
+                    </div>
+                    <div class="control level-item">
+                        <button type="submit" class="button is-info is-rounded is-medium is-flex-grow-1">
+                            <span class="icon is-small"><i class="fas fa-envelope" aria-hidden="true"></i></span>
+                            <span>Submit</span>
+                        </button>
+                    </div>
+                    <div class="result level-item is-flex-grow-1"></div>
+                </form>
             </div>
-        </section>
-        <section id="goals" class="goals">
-            <h2>
-                Goals
-            </h2>
-            <div class="goal_row">
-                <div class="goal_copy">
-                    <p>
-                        My goal is to become a system admin, entrpreneur, and web developer; Not exactly in that order
-                        as all of these roles are equally exciting.
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section class="contactMe_container" id="contactMe">
-            <div class="contactMe_copy">
-                <h2>
-                    Contact me
-                </h2>
-                <div class="form-group">
-                    <input type="email" class="form-control" id="contactEmailForm" placeholder="Enter email">
-                </div>
-                <div class="form-group">
-                    <label for="contactTextarea">Enter your message below</label>
-                    <textarea class="form-control" id="contactTextarea" rows="3" cols="50"></textarea>
-                </div>
-                <div class="form-group">
-                    <button type="button" class="btn btn-primary btn-block submit_btn">
-                        <i class="fas fa-envelope" aria-hidden="true"></i> Submit
-                    </button>
-                </div>
-                <div class="result">
-                </div>
-            </div>
-        </section>
-        <footer>
-            <hr>
+            <div class="column"></div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="has-text-centered">
             <p>
                 Copyright &copy; 2020 Chris Lassiter
             </p>
-        </footer>
-    </div>
+        </div>
+    </footer>
 </body>
 
 </html>
