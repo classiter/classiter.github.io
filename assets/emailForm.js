@@ -27,7 +27,7 @@ $(document).ready(function(){
         });
   }
 
-  $(".submit_btn").on("click",function(){
+  $("#submitButton").on("click",function(){
     email_form();
   });
 
