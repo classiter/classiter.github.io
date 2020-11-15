@@ -106,7 +106,7 @@
         <div class="columns">
             <div class="column"></div>
             <div class="column is-three-fifths">
-                <form id="my-form" action="https://formspree.io/f/mwkwqbyo" method="POST">
+                <form id="mainForm" action="https://formspree.io/f/mwkwqbyo" method="POST">
                     <div class="field">
                         <label class="label is-size-3 level-item">Contact Me</label>
                         <div class="control">
@@ -121,12 +121,12 @@
                     </div>
                     <div class="control level-item">
                         <button type="submit" class="button is-info is-rounded is-medium is-flex-grow-1"
-                            id="submitButton">
+                            id="mainFormSubmit">
                             <span class="icon is-small"><i class="fas fa-envelope" aria-hidden="true"></i></span>
                             <span>Submit</span>
                         </button>
                     </div>
-                    <div class="result level-item is-flex-grow-1"></div>
+                    <div class="result level-item notification is-primary is-invisible" id="mainFormResult"></div>
                 </form>
             </div>
             <div class="column"></div>
