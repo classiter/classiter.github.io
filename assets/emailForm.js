@@ -20,12 +20,15 @@ $(document).ready(function () {
     function success() {
       form.reset();
       button.style = "display: none ";
+      status.classList.add("notification", "is-primary");
       status.classList.remove("is-invisible");
       status.innerHTML = "Your message was sent successfully. Thank you!";
     }
 
     function error() {
-      status.innerHTML = "Oops! There was a problem.";
+      status.classList.add("notification", "is-danger");
+      status.classList.remove("is-invisible");
+      status.innerHTML = "Oops! Well that didn't work. Please try again later.";
     }
 
     // handle the form submission event
